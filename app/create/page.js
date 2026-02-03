@@ -28,7 +28,7 @@ export default function CreatePost() {
                 throw new Error('Failed to create post');
             }
 
-            toast.success('🎉 Post created successfully!', {
+            toast.success(' Post created successfully!', {
                 position: "top-right",
                 autoClose: 3000,
                 hideProgressBar: false,
